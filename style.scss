@@ -166,18 +166,22 @@
 
 .nameplate--destination {
   @include tablet-portrait-up {
-    //color: #555;
-      //Added this for better clarity against the code banner.
     background-color: #121319;
     color: #fff;
     border-color: #fff;
     border-style: solid;
-    border-width: 2px;
-    border-radius: 2px;
+    //border-width: 2px;
+    //border-radius: 2px;
     padding: 4px;
 
     float: left;
     margin: 0;
+    
+    &:hover {  
+    //    padding-bottom: 0.5rem;                 
+        border: solid #4700c9; }
+    &:last-child { margin-right: 0; }
+    &:active {background-color: #4700c9;}
 
     > * { display: inline-block; }
   }
@@ -343,15 +347,17 @@
       &--{{ item.name | downcase }} { background-image: url("{{ site.baseurl }}{{ item.icon }}"); }
     {% endfor %}
 
+    // Current view
     &, &:link, &:visited, &:hover {
-      color: #555;
+      color: #fff;
       text-decoration: none;
       border: none;
     }
 
+    // On click
     &:active {
       color: #fff;
-      background-color: #40867e;
+      background-color: #4700c9;
 
       {% for item in site.nav_menu %}
 	&.nav__item--{{ item.name | downcase }} { background-image: url("{{ item.icon }}_white"); }
@@ -366,11 +372,17 @@
     text-transform: uppercase;
     padding: 0.5rem 1rem;
     @include transition(padding-bottom, 0.25rem, 100ms);
-    border: none;
-
-    &:hover { padding-bottom: 0.5rem; border-bottom: 0.25rem solid #40867e; }
+    border: solid;
+    color: #ffffff;
+    background-color: #121319;
+    
+    // When hovering
+    //&:hover { padding-bottom: 0.5rem; border-bottom: 0.25rem solid #4700c9; }
+    &:hover { 
+        padding-bottom: 0.5rem;
+        border: solid #4700c9; }
     &:last-child { margin-right: 0; }
-
+    &:active {background-color: #4700c9;}
   }
 }
 
