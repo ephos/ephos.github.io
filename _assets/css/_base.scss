@@ -47,12 +47,20 @@ li {
 }
 
 code {
-  @include fontface(monospace);
-  @include underline($solarized_yellow);
-  background-color: $solarized_base3;
+  @include fontface(Lucida Console);
+  //@include fontface(monospace);
+  //font-size: 0.875em;
+  //@include underline($terminal_base3);
+  background-color: $terminal_base1;
+  color: $terminal_base2;
   padding: 0.0625em 0.25em;
+  margin: 2px;
   font-size: 0.875em;
+  font-size: 1em;
+  //font-weight: bold;
   border-radius: 0.25rem;
+  border-style: solid;
+  border-width: thin;
 
   @include tablet-portrait-up { white-space: nowrap; } // wrap on small screens
 }
@@ -65,7 +73,8 @@ pre { // code blocks
     padding: 0;
     font-size: inherit;
     white-space: pre;
-    color: inherit;
+    //color: inherit;
+    color: #fff;
     background-color: transparent;
     border: none;
   }
