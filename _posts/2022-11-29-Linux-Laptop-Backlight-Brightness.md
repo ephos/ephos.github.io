@@ -14,11 +14,11 @@ featured_comments:
 
 <!-- vim-markdown-toc GFM -->
 
-    * [The Challenge](#the-challenge)
-    * [Change the Backlight from the File](#change-the-backlight-from-the-file)
-    * [brightnessctl](#brightnessctl)
-        * [Basic Usage](#basic-usage)
-        * [Changing Brightness](#changing-brightness)
+* [The Challenge](#the-challenge)
+* [Change the Backlight from the File](#change-the-backlight-from-the-file)
+* [brightnessctl](#brightnessctl)
+    * [Basic Usage](#basic-usage)
+    * [Changing Brightness](#changing-brightness)
 * [Reference Links](#reference-links)
 
 <!-- vim-markdown-toc -->
@@ -133,7 +133,7 @@ I learned this the hard way by not reading the help good.  Always read the help 
 
 There you have it, hopefully it helps!
 
-## Reference Links
+### Reference Links
 
 * [Arch Wiki - Backlight](https://wiki.archlinux.org/title/backlight)
 * [Reddit Post on brightnessctl permissions](https://www.reddit.com/r/archlinux/comments/fpklbs/brightnessctl_only_works_as_root/)
