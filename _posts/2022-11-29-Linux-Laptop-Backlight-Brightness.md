@@ -4,7 +4,7 @@ teaser: So you went ahead and installed a trendy window manager and now you need
 category: linux 
 tags: [linux, shell]
 published : true
-reddit_post:
+reddit_post: https://www.reddit.com/r/ephos/comments/z94zyz/change_your_linux_laptop_backlight_brightness/?
 featured_comments:
 ---
 
@@ -14,17 +14,18 @@ featured_comments:
 
 <!-- vim-markdown-toc GFM -->
 
-* [The Challenge](#the-challenge)
-* [Change the Backlight from the File](#change-the-backlight-from-the-file)
-* [brightnessctl](#brightnessctl)
-    * [Basic Usage](#basic-usage)
-    * [Changing Brightness](#changing-brightness)
+    * [The Challenge](#the-challenge)
+    * [Change the Backlight from the File](#change-the-backlight-from-the-file)
+    * [brightnessctl](#brightnessctl)
+        * [Basic Usage](#basic-usage)
+        * [Changing Brightness](#changing-brightness)
+* [Reference Links](#reference-links)
 
 <!-- vim-markdown-toc -->
 
 ### The Challenge
 
-So you spent too much time looking at [/r/UnixPorn](https://www.reddit.com/r/unixporn/)...
+So you spent too much time looking at fancy configs on Reddit...
 
 After looking at all the cool setups and decided to use a trendy window manager like **i3**, **dwm**, or even **Sway** if you're one of those fancy Wayland kids with an AMD card.
 You finally decided to use one of them and realized, some batteries aren't included and some assembly is required.
@@ -76,6 +77,12 @@ You will just have to trust me, a complete internet stranger!
 
 **❗NOTE**: I am not using sudo because I added my user to the _video_ group.
 
+Simple installation via `pacman` on Arch.
+
+```bash
+sudo pacman -S brightnessctl
+```
+
 #### Basic Usage
 
 ```bash
@@ -125,6 +132,12 @@ Parsing the comma separated values is **MUCH** easier than trying to regex the d
 I learned this the hard way by not reading the help good.  Always read the help good.
 
 There you have it, hopefully it helps!
+
+## Reference Links
+
+* [Arch Wiki - Backlight](https://wiki.archlinux.org/title/backlight)
+* [Reddit Post on brightnessctl permissions](https://www.reddit.com/r/archlinux/comments/fpklbs/brightnessctl_only_works_as_root/)
+* [Github - brightnessctl](https://github.com/Hummer12007/brightnessctl)
 
 ---
 
