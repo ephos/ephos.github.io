@@ -20,22 +20,25 @@ repo: https://github.com/ephos/ephos.github.io # used in footer
 nav_menu:
   - name: Posts
     url: /
-    icon: /images/icons.svg#posts # icons should be 24x24 px.
+    icon: /images/posts.svg # icons should be 24x24 px.
   - name: Projects
     url: /projects
-    icon: /images/icons.svg#portfolio
+    icon: /images/projects.svg
   - name: GitHub
     url: https://github.com/ephos
-    icon: /images/icons.svg#github
+    icon: /images/github.svg
     outbound: true      # this key sets a link to open in a new window.
   - name: Me
-    icon: /images/icons.svg#portfolio
+    icon: /images/person.svg    
     url: /about
+      #  - name: Resume
+      #    icon: /images/resume.svg
+      #    url: /resume
   - name: Contact
-    scheme: mailto      # these keys enable email obfuscation.
+    scheme: mailto          # these keys enable email obfuscation.
     handle: rj.pleau       # you know, to protect you from bots. (handle and domain
     domain: gmail.com  # are separated in case bots crawl GitHub repos, too.)
-    icon: /images/icons.svg#email
+    icon: /images/email.svg
 
 # Objects listed here will appear on the /projects.html page.
 projects:
