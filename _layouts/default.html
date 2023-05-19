@@ -27,6 +27,7 @@
     <meta name="description"  content="{{ teaser }}" />
     <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
     {% feed_meta %}
+    {% include analytics.html %}
     <link rel="stylesheet"    href="{{ site.baseurl }}/style.css">
     <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:500,500i,300,300i|Roboto+Mono">
   </head>
@@ -73,7 +74,7 @@
 
     <script src="{{ site.baseurl }}/site.js"></script>
 
-    {% include analytics.html %}
+    <!--    {% include analytics.html %} -->
     {% if site.tags != "" %}
       {% include collecttags.html %}
     {% endif %}
