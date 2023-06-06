@@ -36,18 +36,23 @@ nav_menu:
     url: https://rjpleau.com
   - name: Contact
     scheme: mailto          # these keys enable email obfuscation.
-    handle: rj.pleau       # you know, to protect you from bots. (handle and domain
-    domain: gmail.com  # are separated in case bots crawl GitHub repos, too.)
+    handle: rj.pleau        # you know, to protect you from bots. (handle and domain
+    domain: gmail.com       # are separated in case bots crawl GitHub repos, too.)
     icon: /images/email.svg
 
 # Objects listed here will appear on the /projects.html page.
 projects:
+  - title: PowerShell Summit 2023
+    teaser: "Linux Shell Debates or: How I Stopped Worrying and Learned to Love PowerShell"
+    url: https://github.com/ephos/PSSummit2023-LinuxShells
+    role: Creator
+    category: PowerShell
   - title: PowerShell Summit 2018
-    teaser: My "Creating PowerShell Projects and More with Plaster" Demo
+    teaser: Creating PowerShell Projects and More with Plaster
     url: https://github.com/ephos/PSSummit2018-Plaster
     role: Creator
     category: PowerShell
-  - title: PSCOVID-19
+  - title: PSCOVID-19 (Archived)
     teaser: When a global pandemic is declared, it's time to write a PowerShell Module!
     url: https://github.com/ephos/PSCOVID-19
     role: Creator
