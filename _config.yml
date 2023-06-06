@@ -31,9 +31,9 @@ nav_menu:
   - name: Me
     icon: /images/person.svg    
     url: /about
-      #  - name: Resume
-      #    icon: /images/resume.svg
-      #    url: /resume
+  - name: Resume
+    icon: /images/resume.svg
+    url: https://rjpleau.com
   - name: Contact
     scheme: mailto          # these keys enable email obfuscation.
     handle: rj.pleau       # you know, to protect you from bots. (handle and domain
