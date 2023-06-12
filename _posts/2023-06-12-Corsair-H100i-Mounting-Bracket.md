@@ -29,23 +29,23 @@ I had good luck with my prior Corsair cooler and figured why not?
 
 Hardware items in play:
 
-- Cooler: Corsair iCUE H100i Elite Capellix Liquid CPU Cooler
-- Board: ASUS Prime X570-Pro
-- AMD Ryzen 7 5800X
+- **Cooler:** Corsair iCUE H100i Elite Capellix Liquid CPU Cooler
+- **Board:** ASUS Prime X570-Pro
+- **CPU:** AMD Ryzen 7 5800X
 
 ### The Issue
 
 I ended up with the newer AM4 mounting bracket which had 4 standoffs instead of the prior 2 hooks/thumbscrew configuration.
-
 I went to assemble the cooler mounting hardware to the board and I noticed there was a lot of play with the back plate.
 
-Gif of my confusion as to why there would be that much play: [Watch me struggle](https://imgur.com/eQN7zju)
+- Gif of my confusion as to why there would be that much play: [Watch me struggle](https://imgur.com/eQN7zju)
 
 ### Troubleshooting
 
 Of course I re-read the Corsair instructions and validated all the steps were followed correctly, still had a lot of wiggle.
 I also found a video on the 'Corsair Lab' YouTube channel which walked through the process but frustratingly it made no mention of any wiggle.
-Video here if interested: [How to Install CORSAIR iCUE RGB ELITE Liquid CPU Cooler](https://www.youtube.com/watch?v=9swpPo-ey0w&t=85s).
+
+- Video here if interested: [How to Install CORSAIR iCUE RGB ELITE Liquid CPU Cooler](https://www.youtube.com/watch?v=9swpPo-ey0w&t=85s).
 
 I searched various materials but I only continued to find older references to a different H100i mounting bracket or unresolved questions similar to mine.
 
