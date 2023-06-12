@@ -1,7 +1,7 @@
 ---
 title: Corsair H100i AM4 Mounting Bracket Seems Loose
 teaser: Are you doing a PC build and your H100i seems a little wiggly??
-category: misc
+category: hardware
 tags: [hardware]
 published : true
 reddit_post: https://www.reddit.com/r/Corsair/comments/wd23us/h100i_new_am4_mounting_bracket_seems_loose/ 
