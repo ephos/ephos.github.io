@@ -17,7 +17,8 @@ description = 'Awwww yeah, no Javascript here!'
 2. A little bit of rebranding.
 3. I was a bit over Jekyll.
 4. I wanted a theme that was very easy to customize and extend...
-  a. _...it's just HTML and CSS, no more JS_
+
+...Thanks to [risotto](https://github.com/joeroe/risotto) as my theme base, it's just HTML and CSS, no more JS!
 
 **LONG LIVE!**
 
