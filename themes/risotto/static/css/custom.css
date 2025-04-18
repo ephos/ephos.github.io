@@ -1,0 +1,17 @@
+/* Override this file to customise the theme's CSS for your site */
+
+.page {
+  /* allow it to shrink/grow, but cap at 72rem instead of 64rem */
+  width: 90%;
+  max-width: 80rem; 
+}
+
+/* if you still want the sidebar + main layout: */
+@media (min-width: 45rem) {
+  .page {
+    /* keep your 2‑column grid, sidebar stays 15rem,
+       body takes the rest of this slightly larger container */
+    grid-template-columns: minmax(0, 1fr) 15rem;
+  }
+}
+

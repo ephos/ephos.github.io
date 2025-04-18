@@ -1,0 +1,29 @@
+/* Override this file to customise the theme's CSS for your site */
+
+/*
+.page {
+    max-width: 80rem;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-areas:
+      "header"
+      "body"
+      "aside"
+      "footer";
+    grid-template-columns: minmax(0, 1fr);
+    grid-row-gap: 2rem;
+}
+
+@media (min-width: 45rem) {
+    max-width: 90rem;
+    .page {
+        grid-template-areas:
+          "header  header"
+          "body    aside"
+          "footer  footer";
+        grid-template-columns: minmax(0, 1fr) 15rem;
+        grid-column-gap: 2rem;
+    }
+}
+
+*/
