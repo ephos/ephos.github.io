@@ -31,7 +31,7 @@ About me:
 - I love solving problems and customizing every little aspect of things. 
   * _(hence Arch with Hyprland and Neovim)_
 - I have the attention span of a housefly sometimes.
-  * _(But that power has is the reason why I have dabbled in to many different tech stacks and languages!)_
+  * _(But that power is the reason why I have dabbled in to many different tech stacks and languages!)_
 
 ---
 

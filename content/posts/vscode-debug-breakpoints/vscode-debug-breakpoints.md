@@ -88,15 +88,15 @@ I love debugging, maybe its weird, but I really do enjoy it.  If you want to get
 
 So I dive into debugging my function, add a breakpoint to it and hit `F11` to step into the function.  As I continue to step through it I of course hit my `foreach` loop.  Here is the part thats kind of a bummer.  The first 3 items in my `$loadedModules` list are those built-in PowerShell modules.  Ugh, this means each time I debug I need to step through these 3, over, and over, and over...  What a serious waste of time!
 
-![Debug1](/posts/vscode-debug-breakpoint/Debug1.PNG)
+![Debug1](/posts/vscode-debug-breakpoints/Debug1.PNG)
 
 Conditional breakpoints to the rescue, these little guys are really cool.  They are user defined breakpoints where if on a certain line, the condition is met, the debugger pauses and lets you do your debuggin' thang!
 
 To add a conditional breakpoint you can use the menu or in the debug pane of VS Code right click where you would normally add a breakpoint and select **Add Conditional Breakpoint...**.
 
-![Debug2](/posts/vscode-debug-breakpoint/Debug2.PNG)
+![Debug2](/posts/vscode-debug-breakpoints/Debug2.PNG)
 
-![Debug3](/posts/vscode-debug-breakpoint/Debug3.PNG)
+![Debug3](/posts/vscode-debug-breakpoints/Debug3.PNG)
 
 A special line will showup on the line you started on with two options, **Hit Count** and **Expression**.  A breakdown of the choices...
 
@@ -105,15 +105,15 @@ A special line will showup on the line you started on with two options, **Hit Co
 
 Lets add one, since we want to see how this puppy runs when processing the Pester module we'll add a conditional breakpoint for that specifically.  We write it as if we were going to write any other type of PowerShell conditional statement.
 
-![Debug4](/posts/vscode-debug-breakpoint/Debug4.PNG)
+![Debug4](/posts/vscode-debug-breakpoints/Debug4.PNG)
 
 ...and hit enter.  Now we see it and the red breakpoint circle has a special `=` in it indicating its a conditional breakpoint!  If you go crazy with this you can hover over them to see what they are (as well as still see them listed with all the other normal breakpoints in the Breakpoints section in Debug pane).
 
-![Debug5](/posts/vscode-debug-breakpoint/Debug5.PNG)
+![Debug5](/posts/vscode-debug-breakpoints/Debug5.PNG)
 
 Now, rather than having a single normal breakpoint and stepping through the loop multiple times, we can pause the debugger the exact moment that `$module.Name -eq 'Pester'` evaluates to `$true`.
 
-![Debug6](/posts/vscode-debug-breakpoint/Debug6.PNG)
+![Debug6](/posts/vscode-debug-breakpoints/Debug6.PNG)
 
 Now it doesn't matter what position Pester ends up in the list, we'll pause when we hit it regardless of if its at `[0]` or `[101]`.  Pretty nifty.
 
