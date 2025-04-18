@@ -72,6 +72,10 @@ Name = "Bobby"
     url = "/tags/"
     weight = 40
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 [taxonomies]
 category = "categories"
 tag = "tags"
