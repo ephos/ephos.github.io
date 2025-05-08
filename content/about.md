@@ -4,6 +4,8 @@ tags = ['']
 date = '2025-04-16T11:00:00-00:00'
 title = 'Bobby Codes'
 author = "Bobby"
+summary = 'About'
+description = 'Who is Bobby?'
 +++
 
 ## About Me
@@ -15,8 +17,8 @@ If you're here, I hope you find something useful in your journey.
 
 I have no place for big egos or high horses.  
 Technology is a gift, as is learning it.  
-Everyone is somewhere in their journey and none of us have reached the end.
-Be curious.  
+Everyone is somewhere in their journey and none of us have reached the end.  
+Be patient, be curious, don't hate.
 
 ---
 
@@ -35,12 +37,15 @@ About me:
 
 ---
 
-Zen of learning:
+**The Zen of learning**  
+A paraphrasing of an Alan Watts quote on Dōgen that captures the journey of true understanding:
 
 ```text
 To the novice, mountains are mountains and waters are waters;
 To the intermediate student mountains are no longer mountains, and waters are no longer waters;
 To the master, mountains are once again mountains and waters are once again waters.
 ```
+
+I hope you enjoy the content, if just one person learns something new it will have all been worth it.
 
 -- Bobby

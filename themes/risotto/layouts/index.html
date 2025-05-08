@@ -10,6 +10,12 @@
     <li>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       <small>— {{ .Date.Format "Jan 2, 2006" }}</small>
+
+    {{ if .Description }}
+      <p class="post-description">{{ .Description }}</p>
+    {{ else if .Summary }}
+      <p class="post-description">{{ .Summary }}</p>
+    {{ end }}
     </li>
   {{ end }}
   </ul>
